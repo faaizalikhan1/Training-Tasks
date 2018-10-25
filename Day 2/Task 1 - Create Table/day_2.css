@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* text-align: left; */
+}
+
+.heading-main {
+    padding: 0.5%;
+    text-align: left;
+    background: #bdd6ee;
+    padding-left: 1%;
+    text-transform: uppercase;
+}
+
+span {
+    opacity: 0;
+}
+
+td,
+th {
+    border: 0.1px solid;
+}
+
+td:nth-child(odd) {
+    padding-left: 1%;
+}
+
+td:nth-child(even) {
+    padding-right: 1%;
+}

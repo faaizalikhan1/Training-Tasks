@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="table.css">
+    <script defer src="table.js"></script>
+    <title>Table</title>
+</head>
+<body>
+    
+    <div class="input-fields">
+        <label for="no1">
+                <span>Enter first number :</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input id="numberFirst" type="text" required>
+        </label>
+        
+        <label for="no2">
+                <span>Enter second number :</span>
+                <input id="numberSecond" type="text" required>
+        </label>
+
+        <button id="submit-btn" type="submit">Generate tables</button>
+
+    </div>
+
+    <div style="width:100%;">
+            <table id="cbtable" style="width:60%">
+
+                </table>
+    </div>
+
+    <div class="output-area">
+        <h2 id="title-table"> </h2>
+        <span id="table-data"></span>
+    </div>
+
+
+
+</body>
+</html>
