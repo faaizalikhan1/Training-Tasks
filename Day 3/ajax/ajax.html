@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ajax.css">
+    <script defer src="ajax.js"></script>
+    <title>AJAX Api Request</title>
+</head>
+
+<body>
+
+    <!-- Api LINK - https://jsonplaceholder.typicode.com/comments-->
+
+    <div class="main">
+        <h2 class="heading"></h2>
+
+    </div>
+    <button onclick="getPost(0,10)">1</button>
+    <button onclick="getPost(11,20)">2</button>
+    <button onclick="getPost(21,30)">3</button>
+    <button onclick="getPost(31,40)">4</button>
+    <button onclick="getPost(51,60)">5</button>
+    <button onclick="getPost(61,70)">6</button>
+    <button onclick="getPost(71,80)">7</button>
+    <button onclick="getPost(81,90)">8</button>
+    <button onclick="getPost(91,99)">9</button>
+
+    <div class="paginationDiv">
+
+    </div>
+</body>
+
+</html>
