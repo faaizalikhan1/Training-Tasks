@@ -4,12 +4,76 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.heading{
+    text-align:Center;
 }
 
 .jpg:first-child {
     display: none;
 }
 
+.jpg{
+    padding:2%;
+}
+
+.jpg button{
+    padding:1%;
+    border:2px solid black;
+    background:white;
+    transition: 0.7s all ease;
+    text-align:Center;
+    display: flex;
+    margin:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jpg button:hover{
+    background:black;
+    color:white;
+    transition: 1s all ease;
+}
+
+
+div.comments{
+    display:none;
+    /* max-height:null;
+    overflow:hidden; */
+    transition: all 10s ease-in-out;
+}
+
+.comments ul{
+    position:relative;
+    padding: 6%;
+    border: 1px solid rgb(250, 59, 59);
+    transition:0.5s all ease;
+}
+
+
+
 .showComments:first-child {
     display: none;
+}
+
+p{
+    text-align:left;
+}
+
+.commentBody{
+    position:relative;
+}
+
+.commentBody::After{
+    content:"";
+    position:Absolute;
+    width: 40%;;
+    height:3px;
+    background:lightskyblue;
+    bottom:-60%;
+    left:30%;
+    right:0;
+    
 }
